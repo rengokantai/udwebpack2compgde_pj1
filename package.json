@@ -22,5 +22,9 @@
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.1.4",
     "webpack": "^2.2.0-rc.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1"
   }
 }

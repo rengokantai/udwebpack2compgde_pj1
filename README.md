@@ -1,7 +1,7 @@
 
 ###6
 ```
-npm install --save webpack@2.2.0-rc.3
+npm install --save-dev webpack@2.2.0-rc.3
 ```
 ###11
 create a npm script
@@ -27,3 +27,14 @@ modules:
 
 ###15
 webpack1: loaders = webpack2: module
+
+###19
+css
+- css-loader: knows how to deal with css imports
+- style-loader: take css imports and adds them to the HTML document
+```
+npm install --save-dev babel-core babel-loader babel-preset-env
+```
+```
+npm install --save-dev css-loader style-loader
+```
