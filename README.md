@@ -24,3 +24,6 @@ modules:
 - babel-loader: teaches babel how to work with webpack
 - babel-core: how to take in code
 - babel-preset-env: ruleset
+
+###15
+webpack1: loaders = webpack2: module
