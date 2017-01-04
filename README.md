@@ -18,3 +18,9 @@ do not run this, it will run webpack in globally installed
 ```
 webpack
 ```
+
+###14
+modules:
+- babel-loader: teaches babel how to work with webpack
+- babel-core: how to take in code
+- babel-preset-env: ruleset
