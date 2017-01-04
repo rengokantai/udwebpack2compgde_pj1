@@ -1,0 +1,23 @@
+{
+  "name": "udwebpack2compgde_pj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rengokantai/udwebpack2compgde_pj1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rengokantai/udwebpack2compgde_pj1/issues"
+  },
+  "homepage": "https://github.com/rengokantai/udwebpack2compgde_pj1#readme",
+  "dependencies": {
+    "webpack": "^2.2.0-rc.3"
+  }
+}
