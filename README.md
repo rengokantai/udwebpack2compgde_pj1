@@ -42,3 +42,12 @@ npm install --save-dev css-loader style-loader
 ```
 npm install --save-dev extract-text-webpack-plugin@2.0.0-beta.4
 ```
+
+###22
+resize:
+- image-webpack-loader  
+then
+- url-loader
+```
+npm install --save-dev image-webpack-loader url-loader
+```
