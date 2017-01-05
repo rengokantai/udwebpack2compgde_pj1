@@ -38,3 +38,7 @@ npm install --save-dev babel-core babel-loader babel-preset-env
 ```
 npm install --save-dev css-loader style-loader
 ```
+###21
+```
+npm install --save-dev extract-text-webpack-plugin@2.0.0-beta.4
+```
