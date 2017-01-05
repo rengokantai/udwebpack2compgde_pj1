@@ -21,8 +21,13 @@ const config = {
 			},
 			{
 				test:/\.(jpe?g|png|gif|svg)$/,
-				use:[
-					'url-loader',
+				use:[{
+
+				loader:'url-loader',
+				options:{
+					limit:40000
+				}}
+					,
 					'image-webpack-loader'
 				]
 			}
