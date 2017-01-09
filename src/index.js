@@ -5,6 +5,8 @@
 const button = document.createElement('button');
 button.innerText = 'clickme';
 button.onclick=()=>{
-	System.import('./image_viewer')
+	System.import('./image_viewer').then(module=>{
+		module.default();
+	})
 }
 document.body.appendChild(button);
